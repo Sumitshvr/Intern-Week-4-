@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background-image"></div>
+    <div id="todo-container">
+        <center><h2>To-Do List</h2></center>
+        <input type="text" id="task-input" placeholder="Add a new task">
+        <center><button id="add-task-btn" onclick="addTask()">Add Task</button></center>
+        <div id="task-list" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div id="task-list"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="animate-charcter"> <p>Welcome To My</p>
+                <p> To-Do List</p></h3>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
